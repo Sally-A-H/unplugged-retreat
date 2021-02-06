@@ -87,6 +87,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
    
+   .content-wrapper {
+       width: 90%;
+       margin: 50px 0;
+    }
+   
    /* -------------- Base Header - Footer Styles ------------------*/
    
    header,
@@ -100,12 +105,16 @@ textarea {
    
    /* --- Header Styles ----*/
    
+   header {
+       padding: 15px 0;
+   }
    
    header .content-wrapper {
        display: flex;
        justify-content: center;
        align-items: center;
        flex-flow: row wrap;
+       margin: 0;
    }
    
    header figure {
@@ -113,10 +122,14 @@ textarea {
    }
    
    .header-divider {
+       width: 100%;
+       height: 1px;
+       margin: 10px 0 20px 0;
    
    }
    
    header nav {
+       width: 60%;
        display: flex;
        justify-content: space-around;
        align-items: center;
@@ -124,28 +137,27 @@ textarea {
     }
    
    header nav ul {
+       width: 100%;
        display: flex;
        justify-content: space-around;
    }
    
    footer {
-   
+       flex-direction: column;
    }
    
    footer p {
-   
+       margin: 0;
    }
    
    footer .content-wrapper {
+       width: 55%;
+       margin: 50px 0;
    
    }
    
    footer .contact {
-   
-   }
-   
-   footer .social {
-   
+       margin-bottom: 50px;
    }
    
    footer .social-icons {
@@ -161,7 +173,7 @@ textarea {
    }
    
    footer .copyright {
-   
+       margin: 20px 0;
    }
    
    /* -------------- Mobile Styles - Homepage ------------------*/
@@ -176,6 +188,8 @@ textarea {
    }
    
    .hero-area .content-wrapper {
+     
+       
    
    }
    
@@ -201,7 +215,7 @@ textarea {
    }
    
    .features h2 {
-   
+       margin-bottom: 60px;
    }
    
    .features .features-items {
@@ -216,11 +230,13 @@ textarea {
     }
     
    .features article {
+       width: 63%;
+       margin: 30px;
     
     }
     
     .features p {
-    
+       margin: 0;
     }
    
    /*Reviews*/
@@ -232,11 +248,12 @@ textarea {
   }
   
   .reviews h2 {
-  
+      margin-bottom: 40px;
   }
   
   .reviews h3 {
-  
+      width: 55%;
+      margin: 20px 0;
   }
   
   .reviews p {
@@ -264,7 +281,7 @@ textarea {
   }
   
   .contact-content p {
-  
+      margin: 0;
   }
   
   /*-------------- FAQ Page --------------------*/
@@ -277,10 +294,11 @@ textarea {
   }
   
   .faq h2 {
-  
+      margin-bottom: 40px;
   }
   
   .faq .content-wrapper {
+      margin: 50px 0 0 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -288,7 +306,7 @@ textarea {
   }
   
   .faq .content  {
-  
+      margin-bottom: 50px;
   }
    
   
