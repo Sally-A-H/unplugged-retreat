@@ -130,7 +130,11 @@ textarea {
    }
    
    img {
-     
+     width: 100%;
+   }
+   
+   figure {
+       margin: 0;
    }
    
    address {
@@ -193,6 +197,14 @@ textarea {
        justify-content: space-around;
    }
    
+   header figure {
+       width: 60%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-flow: row wrap;
+   }
+   
    /*---Footer styles----*/
    
    footer {
@@ -238,7 +250,13 @@ textarea {
        display: flex;
        justify-content: center;
        flex-flow: row wrap;
+       height: 500px;
+       background: url("../img/jake-melara-30679-unsplash.jpg");
+       background-size: cover;
+       background-repeat: no repeat;
+       background-position: center;
    }
+   
    
    .hero-area h1 {
        font-size: 2.25em;
@@ -246,6 +264,7 @@ textarea {
        font-weight: 500;
        line-height: 1.2;
    }
+   
    
     /* Aside */
 
@@ -289,7 +308,9 @@ textarea {
        display: flex;
        justify-content: center;
        flex-flow: row wrap;
-   }
+       background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
+       background-size: cover;
+    }
    
    .features h2 {
        margin-bottom: 60px;
@@ -479,9 +500,8 @@ textarea {
     
     /*General styles*/
     
-    header {
-        padding: 15px 0;
-    }
+    
+  
     
      .content-wrapper {
         max-width: 640px;
@@ -509,7 +529,9 @@ textarea {
         justify-content: space-between;
     }
     
-    
+    header figure {
+       width: 36%;
+    }
      
     
     header nav {
@@ -525,6 +547,10 @@ textarea {
     }
     
     /*Hero area*/
+    
+    .hero-area {
+        min-height: 600px;
+    }
     
     .hero-area h1 {
         font-size: 3em;
@@ -574,9 +600,10 @@ textarea {
         width: 85%;
     }
     
+    .reviews article figure,
     .reviews article div {
         width: 49%;
-    }
+     }
     
     .reviews h3 {
         width: 75%;
@@ -668,6 +695,14 @@ textarea {
         padding: 15px 0;
     }
     
+       header figure {
+       width: 30%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-flow: row wrap;
+   }
+    
     .content-wrapper {
         max-width: 960px;
     }
@@ -687,6 +722,10 @@ textarea {
     
    
     /* Hero area */
+    
+    .hero-area {
+        height: 600px;
+    }
     
     .hero-area h1 {
         width: 60%;
@@ -832,4 +871,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
