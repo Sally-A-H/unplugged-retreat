@@ -197,6 +197,10 @@ textarea {
        justify-content: space-around;
    }
    
+   header nav ul li {
+      font-size: 1.125em;
+   }
+   
    header figure {
        width: 60%;
        display: flex;
@@ -250,7 +254,7 @@ textarea {
        display: flex;
        justify-content: center;
        flex-flow: row wrap;
-       height: 500px;
+       min-height: 500px;
        background: url("../img/jake-melara-30679-unsplash.jpg");
        background-size: cover;
        background-repeat: no repeat;
@@ -341,6 +345,7 @@ textarea {
        flex-flow: row wrap;
        background-color: #2a423a;
     }
+    
   
     .reviews h2 {
        margin-bottom: 40px;
@@ -360,6 +365,22 @@ textarea {
        align-items: center;
        flex-flow: row wrap;
        background-color: #527158;
+    }
+    
+    .map figure {
+        width: 100%;
+        position: relative;
+        padding-bottom: 125%;
+        height: 0;
+        overflow: hidden;
+    }
+    
+    .map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
   
     .contact-section {
@@ -535,7 +556,7 @@ textarea {
      
     
     header nav {
-    width: 25%;
+    width: 30%;
     }
     
     header nav ul {
@@ -592,7 +613,7 @@ textarea {
     
     /*Reviews*/
     .reviews article {
-        diplay: flex;
+        display: flex;
         justify-content: space-between;
     }
     
@@ -602,13 +623,16 @@ textarea {
     
     .reviews article figure,
     .reviews article div {
-        width: 49%;
+        width:49%;
      }
-    
+     
     .reviews h3 {
         width: 75%;
         margin: 0;
-    }
+     }
+     
+    
+   
     
     /*Footer*/
     footer .content-wrapper {
@@ -691,17 +715,19 @@ textarea {
 @media only screen and (min-width: 1200px) {
     /*Desktop styles here*/
     
-      header {
-        padding: 15px 0;
-    }
+
     
-       header figure {
+    header figure {
        width: 30%;
        display: flex;
        justify-content: center;
        align-items: center;
        flex-flow: row wrap;
    }
+   
+    header nav {
+        width: 20%
+    }
     
     .content-wrapper {
         max-width: 960px;
