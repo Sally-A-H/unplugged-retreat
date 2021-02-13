@@ -315,6 +315,12 @@ textarea {
        background: url("../img/rawpixel-800820-unsplash1.jpg") center no-repeat #333;
        background-size: cover;
     }
+    
+    .features i {
+        font-size: 3.75em;
+        margin-bottom: 40px;
+        color:burlywood;
+    }
    
    .features h2 {
        margin-bottom: 60px;
@@ -599,6 +605,11 @@ textarea {
         margin-bottom: 20px;
     }
     
+    .features i {
+        font-size: 4em;
+        color: brown;
+    }
+    
     .features article {
         display: flex;
         justify-content: center;
@@ -780,6 +791,10 @@ textarea {
     /* Features */
     .features h2 {
         width: 90%;
+    }
+    
+    .features i {
+        color:lemonchiffon;
     }
     
     .features article {
