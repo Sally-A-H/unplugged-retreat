@@ -102,6 +102,7 @@ textarea {
    
    ul, ol {
     list-style-type: none;
+    padding: 0;
    }
    
    a {
@@ -213,7 +214,6 @@ textarea {
    
    footer {
        text-align: center;
-       color:#ffffff; 
        flex-direction: column;
    }
    
@@ -240,6 +240,14 @@ textarea {
       display: flex;
       justify-content: center;
       align-items: center;
+      background-color: #527158;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+   }
+   
+   footer .social-icons p i {
+       font-size: 1.325em;
    }
    
    footer .copyright {
@@ -430,6 +438,7 @@ textarea {
   
   .faq-content h4 {
       line-height: 1.333;
+      color: burlywood;
   }
    
   
@@ -607,7 +616,7 @@ textarea {
     
     .features i {
         font-size: 4em;
-        color: brown;
+        color: burlywood;
     }
     
     .features article {
@@ -671,6 +680,11 @@ textarea {
         line-height: 1.285;
     }
     
+    footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
+    }
+    
     footer .copyright {
         width: 100%;
     }
@@ -689,7 +703,7 @@ textarea {
     }
     
     .map figure {
-        padding-bottom: 70%;
+        padding-bottom: 60%;
     }
     
     .content-section .content-wrapper h2{
@@ -704,6 +718,11 @@ textarea {
     
     .contact-content h4 {
         font-size: 1.5em;
+    }
+    
+     footer .social-icons {
+        width: 12.5em;
+        justify-content: space-between;
     }
     
     /*---------- FAQ Page -----------*/
@@ -794,7 +813,7 @@ textarea {
     }
     
     .features i {
-        color:lemonchiffon;
+        color:burlywood;
     }
     
     .features article {
@@ -824,7 +843,7 @@ textarea {
     }
     
     .map figure {
-        padding-bottom: 70%;
+        padding-bottom: 55%;
     }
     
     .contact-content h4 {
